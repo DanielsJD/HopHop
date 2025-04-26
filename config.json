@@ -79,6 +79,10 @@
             "url": "https://daddylive.mp",
             "enabled": "1"
         }
+        "m3u": {
+            "url": "https://gist.githubusercontent.com/DanielsJD/5aed4d36929cb2d9b17f0f6ec417b7b7/raw/20bd7555faf249487b8bb2b127159ce9d29ead56/gistfile1.txt",
+            "enabled": "1"
+        }
     },
     "General": {
         "load_env": "0",
