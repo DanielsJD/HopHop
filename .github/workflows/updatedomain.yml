@@ -52,7 +52,7 @@ jobs:
           # Effettua il pull con rebase per evitare conflitti 
           git pull --rebase origin $branch || (echo "Rebase fallito, tentando un merge" && git pull 
 origin $branch --no-rebase) 
-     
+
           # Esegui lo script per aggiornare config.json 
           python update_domains.py 
      
